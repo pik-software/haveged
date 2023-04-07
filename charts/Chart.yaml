@@ -1,0 +1,10 @@
+apiVersion: v2
+name: haveged
+home: https://issihosts.com/haveged/
+type: application
+version: 1.2.1
+appVersion: "1.9.8-r0"
+description: A helm chart for deploy havegd to prevent low-entropy situations
+keywords:
+- haveged
+- entropy
