@@ -1,6 +1,6 @@
-FROM alpine:3.10.3
-MAINTAINER Hortonworks
+FROM alpine
 
-RUN apk add --no-cache haveged
+RUN apk add --update --no-cache haveged
+
 ENTRYPOINT ["haveged"]
 CMD ["-F"]
