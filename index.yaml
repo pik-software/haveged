@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  haveged:
+  - apiVersion: v2
+    appVersion: 1.9.8-r0
+    created: "2023-04-07T21:06:24.568327+03:00"
+    description: A helm chart for deploy havegd to prevent low-entropy situations
+    digest: 3b76cacf029172230180fb28b839d6259b61d9385f12f3d5e655439e40b2c479
+    home: https://issihosts.com/haveged/
+    keywords:
+    - haveged
+    - entropy
+    name: haveged
+    type: application
+    urls:
+    - https://pik-software.github.io/haveged/haveged-1.2.1.tgz
+    version: 1.2.1
+generated: "2023-04-07T21:06:24.566427+03:00"
